@@ -4,6 +4,22 @@
     <OutputType>library</OutputType>
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
+
+    <PackageId>Sprocket.Args</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>davidpullin</Authors>
+    <Title>Command Line Argument Parser</Title>
+    <Description>Args is a command line argument parser.  It aims to be simple to configure and forgiving when parsing input. Configuration is performed via XML. Both the configuration and parsed results contain two main objects: **Commands** and **Options**.</Description>
+    <PackageSummary>Args is a command line argument parser.  It aims to be simple to configure and forgiving when parsing input. Configuration is performed via XML. Both the configuration and parsed results contain two main objects: **Commands** and **Options**.</PackageSummary>
+    <Copyright>© David Pullin 2021</Copyright>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>GPL-3.0-only</PackageLicenseExpression>
+    <PackageIcon>Sprocket.Args.jpg</PackageIcon>
+    <PackageTags>Text;Command;Arguments;Command Line;Parser</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageProjectUrl>https://ict-man.me/sprocket/api/Sprocket.Args.html</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/david-pullin/cs-args</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 
@@ -11,9 +27,12 @@
     <When Condition=" '$(Configuration)'=='Release' ">
       <PropertyGroup>
         <Optimize>true</Optimize>
-        <DebugType>none</DebugType>
       </PropertyGroup>
     </When>
   </Choose>
+
+  <ItemGroup>
+      <None Include="Sprocket.Args.jpg" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
 </Project>
