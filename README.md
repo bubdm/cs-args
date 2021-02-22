@@ -2,9 +2,9 @@
 
 Created by [David Pullin](https://ict-man.me)
 
-Readme Last Updated on 16.02.2021
+Readme Last Updated on 22.02.2021
 
-The full API can be found at ***doxx*** to do
+The full API can be found at https://ict-man.me/sprocket/api/Sprocket.Args.html
 
 Licence GPL-3.0 
 
@@ -484,8 +484,9 @@ Having a default Command is useful for when your application is run without any 
 
  - Option Values are not validated by the parser.  This is up to your calling code.
 
- - The full API can be found at DOXX ##### TO DO ####
+ - The full API can be found at https://ict-man.me/sprocket/api/Sprocket.Args.html
 
+ 
 <br>
 
 
